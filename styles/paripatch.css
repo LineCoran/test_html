@@ -1,0 +1,211 @@
+.pari-wrapper {
+    margin-top: 2rem;
+    display: grid;
+    width: 91%;
+    grid-template-columns: 3fr 1fr;
+    gap: 15px;
+    margin-bottom: 2rem;
+}
+
+.pari {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border-radius: 15px;
+    background: linear-gradient(148deg, #313446 19.06%, #070B1F 97.93%), #F7F8FD;
+}
+
+.pari-logo {
+    border-radius: 15px;
+    padding: 40px 43px;
+    background: linear-gradient(163deg, #313446 -13.44%, #070B1F 150.61%);
+}
+
+.pari-stars-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.pari-name {
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 500;
+}
+
+.pari-info-wrapper-head {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.pari-info-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pari-rating-value {
+    font-weight: 500;
+    color: white;
+}
+
+.pari-head-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.pari-info {
+    padding: 20px;
+}
+
+.pari-info-header {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.pari-rating-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.pari-os-list {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
+}
+
+.pari-os-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pari-bonus {
+    height: 100%;
+    border-radius: 15px;
+    background: linear-gradient(148deg, #313446 19.06%, #070B1F 97.93%), #F7F8FD;
+}
+
+.pari-bonus-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 40px;
+    margin-top: 23px;
+}
+
+.pari-bonus-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.pari-payments-list {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.payment-item--secondary {
+    width: 69px;
+    height: 44px;
+    background-color: rgba(49, 54, 74, 0.55);
+}
+
+.pari-bonus-logo-and-bg {
+    width: 100%;
+    height: 100px;
+    background: url(../assets/svg/logo-bg.svg) top center / cover no-repeat;
+}
+
+.pari-bonus-info {
+    padding: 20px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    height: calc(100% - 115px);
+}
+
+.section-description__header-subtitle--secondary {
+    background-image: linear-gradient(180deg, #FFC736 0%, #FF630C 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 500;
+}
+
+.text-title--secondary {
+    color: white;
+}
+
+.pari-bonus-description {
+    font-size: 0.8rem;
+    line-height: 20px;
+}
+
+.company-data-wrapper {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: var(--bg-primary);
+}
+
+.company-data-list {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.company-data-item {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.company-data-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.company-data-title {
+    color: black;
+}
+
+.review-section {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: var(--bg-primary);
+
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.review-section-header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.author-avatar {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background-color: rgb(52, 52, 52);
+}
+
+.review-author__name {
+    font-size: 1.15rem;
+    color: var(--text-color-secondary);
+}
+
+.review-section-content {
+    font-size: 1rem;
+    line-height: 25px;
+}
