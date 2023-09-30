@@ -90,7 +90,7 @@ rt, th {
     transform: rotate(0);
 }
 
-.command-dropdown__wrapper--open img {
+.command-dropdown__wrapper--show img {
     transform: rotate(180deg);
 }
 

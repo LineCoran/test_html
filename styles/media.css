@@ -1,4 +1,32 @@
+@media (max-width: 1400px) {
+    .pari {
+        width: 70%;
+    }
+
+    .company-data-wrapper {
+        width: 28%;
+    }
+
+    .review-section {
+        width: 70%;
+    }
+
+    .table {
+        width: 100%;
+    }
+
+
+}
 @media (max-width: 1024px) {
+
+    .row--large {
+        width: 40%;
+    }
+
+
+    .row--medium {
+        width: 30%;
+    }
 
     .main {
         padding: 0.5rem 10px;
@@ -12,6 +40,10 @@
 
     .pari {
         display: flex;
+        width: 100%;
+    }
+
+    .company-data-wrapper {
         width: 100%;
     }
 
