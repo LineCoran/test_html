@@ -217,3 +217,10 @@
     color: #fff;
     text-transform: uppercase;
   }
+
+  .more-info-button__image img {
+    transition: all 0.5s ease;
+  }
+  .more-info-button__image--show img {
+    transform: rotate(180deg);
+  }

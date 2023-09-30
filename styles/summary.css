@@ -7,6 +7,15 @@
     display: flex;
     gap: 1rem;
     width: 100%;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    opacity: 0;
+    height: 0px;
+}
+
+.summary-show {
+    opacity: 1;
+    height: 205px;
 }
 
 .details__text {
