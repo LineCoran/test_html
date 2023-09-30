@@ -356,7 +356,7 @@
     }
 
     .payments-list {
-        gap: 10px;
+        gap: 5px;
     }
 
     .summary  {
@@ -431,6 +431,8 @@
     .pari-payments-list {
         gap: 4px;
     }
+
+
 
     .payment-item {
         width: 43px;
