@@ -58,8 +58,10 @@
     gap: 10px;
   }
   .section-image {
-    width: 148px;
-    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 44px 20px;
     background-color: var(--text-color-secondary);
     border-radius: 1rem;
   }
