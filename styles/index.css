@@ -73,7 +73,7 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
-.container {
+.main {
   width: 100%;
   max-width: 1440px;
   padding: 2rem 60px;
