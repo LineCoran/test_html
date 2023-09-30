@@ -1,6 +1,5 @@
 .details {
     width: 100%;
-    padding: 15px;
 }
 
 .summary {
@@ -16,6 +15,7 @@
 .summary-show {
     opacity: 1;
     height: 100%;
+    padding: 15px;
 }
 
 .details__text {

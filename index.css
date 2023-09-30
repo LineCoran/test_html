@@ -61,7 +61,7 @@ body {
 .container {
   width: 100%;
   max-width: 1440px;
-  padding: 2rem 60px;
+  padding: 0.5rem 60px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -73,7 +73,6 @@ body {
   width: 100%;
   background-color: var(--bg-primary);
   border-radius: 15px;
-  margin-top: 2rem;
   position: relative;
 }
 
@@ -128,12 +127,10 @@ body {
   padding: 44px 20px;
   background-color: var(--text-color-secondary);
   border-radius: 1rem;
-  margin-right: 1.5%;
 }
 
 .section-description {
   width: 23%;
-  margin-right: 2.5%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

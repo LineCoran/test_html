@@ -222,3 +222,14 @@
 .pari-rating-wrapper--xs-show {
     display: none;
 }
+
+.pari-os-list--xxs-show {
+    display: none;
+}
+
+.section-description__header--xxs-show {
+    display: none;
+}
+.payment-item--md-hide {
+    display: none;
+}
