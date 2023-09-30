@@ -225,11 +225,11 @@
     text-transform: uppercase;
   }
 
-  .more-info-button__image img {
+  .more-info-button img {
     transform: rotate(0);
-    transition: all 10s ease;
+    transition: all 0.4s ease;
   }
-  .more-info-button__image--show img {
+  .more-info-button--show img {
     transform: rotate(180deg);
   }
 
