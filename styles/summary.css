@@ -15,7 +15,7 @@
 
 .summary-show {
     opacity: 1;
-    height: 205px;
+    height: 100%;
 }
 
 .details__text {
@@ -47,7 +47,7 @@
     width: 25px;
     height: 25px;
     background-color: #53AF1B;
-    -webkit-mask: url('../assets/svg/like.svg') no-repeat center;
+    -webkit-mask: url('../assets/svg/like.svg') center center / contain no-repeat;
 }
 
 .review-item__img--like {

@@ -1,15 +1,15 @@
 .pari-wrapper {
     margin-top: 2rem;
-    display: grid;
-    width: 91%;
-    grid-template-columns: 3fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     gap: 15px;
     margin-bottom: 2rem;
 }
 
 .pari {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    display: flex;
+    width: 75%;
     border-radius: 15px;
     background: linear-gradient(148deg, #313446 19.06%, #070B1F 97.93%), #F7F8FD;
 }
@@ -29,6 +29,10 @@
     font-size: 1.25rem;
     color: white;
     font-weight: 500;
+}
+
+.pari-info {
+    width: 67%;
 }
 
 .pari-info-wrapper-head {
@@ -102,6 +106,10 @@
     display: flex;
     gap: 10px;
     align-items: center;
+}
+
+.pari-bonus-item {
+    color: rgba(255, 255, 255, 0.80);
 }
 
 .pari-payments-list {
@@ -180,6 +188,7 @@
 .review-section {
     padding: 20px;
     border-radius: 15px;
+    width: 75%;
     background-color: var(--bg-primary);
 
     display: flex;
@@ -208,4 +217,8 @@
 .review-section-content {
     font-size: 1rem;
     line-height: 25px;
+}
+
+.pari-rating-wrapper--xs-show {
+    display: none;
 }

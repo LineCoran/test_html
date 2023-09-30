@@ -1,9 +1,8 @@
 
 .section {
-    width: 91%;
+    width: 100%;
     background-color: var(--bg-primary);
     border-radius: 15px;
-    margin-top: 2rem;
     position: relative;
   }
   
@@ -44,10 +43,6 @@
   .stars-list {
     list-style-type: none;
     display: flex;
-  }
-
-  .star-img {
-    
   }
   
   
@@ -128,6 +123,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+  }
+
+  .payment-list--hide {
+    display: none;
   }
   
   .payment-item {
@@ -223,4 +222,16 @@
   }
   .more-info-button__image--show img {
     transform: rotate(180deg);
+  }
+
+  .pari-bonus--xs-show  {
+    display: none;
+  }
+
+  .pari-rating-wrapper--xs-show {
+    display: none;
+  }
+
+  .pari-info-features--xs {
+    display: none;
   }
