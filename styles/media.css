@@ -1,6 +1,6 @@
 @media (max-width: 1024px) {
 
-    .container {
+    .main {
         padding: 0.5rem 10px;
     }
 
@@ -275,7 +275,7 @@
     }
 }
 
-@media (max-width: 344px) {
+@media (max-width: 440px) {
 
     .section-header__info {
         gap: 5px;
