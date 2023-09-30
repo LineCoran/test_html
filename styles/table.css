@@ -1,0 +1,157 @@
+.table-section {
+    width: 100%;
+}
+
+.table {
+    width: 75%;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    line-height: 20px;
+    margin-bottom: 5rem;
+    left: 0;
+    border-collapse:collapse;
+}
+
+.table-header {
+    padding: 4px 8px;
+    height: 28px;
+    text-align: center;
+}
+
+.header-row--xxl {
+    text-align: left;
+}
+
+rt, th {
+    font-weight: 400;
+}
+
+.row--large {
+    width: 60%;
+    text-align: left;
+}
+
+.main-row {
+    background: #005283;
+    color: white;
+    height: 40px;
+    padding: 8px;
+    border-bottom: 1px solid #3C647B;
+}
+
+.main-row  th{
+    padding: 8px;
+}
+
+.primary-row__cell--collapsed  {
+    text-decoration: underline;
+}
+
+
+
+
+.data-row {
+    display: none;
+}
+
+.data-row--show {
+    display: table-row;
+}
+
+.row__wrapper--large {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.command-logo__wrapper {
+    display: inline;
+    background: white;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+.command-dropdown__wrapper {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.command-dropdown__wrapper img {
+    transition: all 0.4s ease;
+    transform: rotate(0);
+}
+
+.command-dropdown__wrapper--open img {
+    transform: rotate(180deg);
+}
+
+.series-result {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+}
+
+.series-result-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    column-gap: 10px;
+}
+
+.series-result--win {
+    background-color: #4EC757;
+}
+.series-result--lose {
+    background-color: #DB0202;
+}
+.series-result--none {
+    background-color: #9B9B9B;
+}
+
+.data-row__cell {
+    width: 100%;
+    height: 20px;
+}
+
+.data-table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.data-table thead {
+    background: #DEECFA;
+}
+
+.data-table thead th {
+    padding: 4px 8px;
+}
+
+.data-table tbody th {
+    padding: 4px 8px;
+    height: 40px;
+}
+
+.data-results-cell div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.data-result-cell__result {
+    text-decoration: underline;
+}
+

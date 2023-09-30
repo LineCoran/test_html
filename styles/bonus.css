@@ -115,12 +115,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 22px;
     max-width: 25%;
   }
   
   .payments-list {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     gap: 1rem;
   }
@@ -210,6 +212,10 @@
     align-items: center;
     justify-content: center;
   }
+
+  .section-flag--secondary {
+    background: url(../assets/svg/curve-bg-secondary.svg) center center / contain no-repeat;
+  }
   
   .section-flag__text {
     font-weight: 500;
@@ -218,7 +224,8 @@
   }
 
   .more-info-button__image img {
-    transition: all 0.5s ease;
+    transform: rotate(0);
+    transition: all 10s ease;
   }
   .more-info-button__image--show img {
     transform: rotate(180deg);

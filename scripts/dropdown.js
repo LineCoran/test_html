@@ -1,4 +1,4 @@
-(function() {
+document.addEventListener('DOMContentLoaded', function() {
     const moreBtnList = document.querySelectorAll('.more-info-button')
     const extraContentList = document.querySelectorAll('.summary')
 
@@ -6,7 +6,6 @@
         moreBtnList[i].addEventListener('click', () => {
             extraContentList[i].classList.toggle('summary-show')
             moreBtnList[i].classList.toggle('more-info-button__image--show')
-
         })
     }
-})()
+ }, false);

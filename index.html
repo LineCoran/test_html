@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,246 +9,721 @@
     <link href="./styles/summary.css" rel="stylesheet" type="text/css">
     <link href="./styles/paripatch.css" rel="stylesheet" type="text/css">
     <link href="./styles/media.css" rel="stylesheet" type="text/css">
+    <link href="./styles/table.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Test HTML | Kuzmichev</title>
+    <script src="./scripts/dropdown.js"></script>
+    <script src="./scripts/collapseRow.js"></script>
 </head>
+
 <body>
     <div class="container">
-      <section class="section">
-        <div class="section-header">
-            <div class="section-header__info">
+        <section class="section">
+            <div class="section-header">
+                <div class="section-header__info">
 
-                <p class="section-header__info-position">
-                    1
-                </p>
-                <img src="./assets/svg/fire.svg" alt="fire" class="section-header__info-icon">
-                <p class="section-header__info-name text-subtitle">
-                    BWIN
-                </p>
+                    <p class="section-header__info-position">
+                        1
+                    </p>
+                    <img src="./assets/svg/fire.svg" alt="fire" class="section-header__info-icon">
+                    <p class="section-header__info-name text-subtitle">
+                        BWIN
+                    </p>
 
-            </div>
-
-            <div class="section-header__rating">
-
-                <p class="section-header__rating-number text-subtitle">
-                    5.0
-                </p>
-
-                <ul class="stars-list">
-                    <li class="star-item">
-                        <img src="./assets/svg/star.svg" alt="star-img">
-                    </li>
-                    <li class="star-item star-item--hide">
-                        <img src="./assets/svg/star.svg" alt="star-img">
-                    </li>
-                    <li class="star-item star-item--hide">
-                        <img src="./assets/svg/star.svg" alt="star-img">
-                    </li>
-                    <li class="star-item star-item--hide">
-                        <img src="./assets/svg/star.svg" alt="star-img">
-                    </li>
-                    <li class="star-item star-item--hide">
-                        <img src="./assets/svg/star.svg" alt="star-img">
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-        <div class="section-body">
-            <div class="section-image-description-wrapper">
-                <div class="section-image">
-                    <img src="./assets/svg/bwin-logo.svg" alt="bwin_logo">
                 </div>
 
-                <div class="section-description">
-                    <div class="section-description__header">
-                        <img class="section-description__header-bonus-icon" src="./assets/svg/bonus.svg" alt="bonus">
-                        <p class="section-description__header-subtitle">
-                            Welcome bonus
-                        </p>
+                <div class="section-header__rating">
+
+                    <p class="section-header__rating-number text-subtitle">
+                        5.0
+                    </p>
+
+                    <ul class="stars-list">
+                        <li class="star-item">
+                            <img src="./assets/svg/star.svg" alt="star-img">
+                        </li>
+                        <li class="star-item star-item--hide">
+                            <img src="./assets/svg/star.svg" alt="star-img">
+                        </li>
+                        <li class="star-item star-item--hide">
+                            <img src="./assets/svg/star.svg" alt="star-img">
+                        </li>
+                        <li class="star-item star-item--hide">
+                            <img src="./assets/svg/star.svg" alt="star-img">
+                        </li>
+                        <li class="star-item star-item--hide">
+                            <img src="./assets/svg/star.svg" alt="star-img">
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="section-body">
+                <div class="section-image-description-wrapper">
+                    <div class="section-image">
+                        <img src="./assets/svg/bwin-logo.svg" alt="bwin_logo">
                     </div>
-                    <h2 class="section-description__title text-title">
+
+                    <div class="section-description">
+                        <div class="section-description__header">
+                            <img class="section-description__header-bonus-icon" src="./assets/svg/bonus.svg" alt="bonus">
+                            <p class="section-description__header-subtitle">
+                                Welcome bonus
+                            </p>
+                        </div>
+                        <h2 class="section-description__title text-title">
                         100% Up to 500 $
                     </h2>
 
-                    <p class="section-description__short-info">
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit lacus tempor, vulputate id fames pulvinar curabitur faucibus.
-                    </p>
-                    
+                        <p class="section-description__short-info">
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit lacus tempor, vulputate id fames pulvinar curabitur faucibus.
+                        </p>
+
+                    </div>
                 </div>
-            </div>
 
-            <ul class="bonus-list">
-                <li class="bonus-item">
-                    <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
-                    <p class="bonus-item__text">Best odds</p>
-                </li>
-
-                <li class="bonus-item">
-                    <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
-                    <p class="bonus-item__text">Casino</p>
-                </li>
-
-                <li class="bonus-item">
-                    <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
-                    <p class="bonus-item__text">200+ Paymenth Method</p>
-                </li>
-
-                <li class="bonus-item">
-                    <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
-                    <p class="bonus-item__text">Fast Payouts</p>
-                </li>
-            </ul>
-
-            <div class="section-features">
-                <ul class="payments-list">
-                    <li class="payment-item">
-                        <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
+                <ul class="bonus-list">
+                    <li class="bonus-item">
+                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                        <p class="bonus-item__text">Best odds</p>
                     </li>
 
-                    <li class="payment-item">
-                        <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
+                    <li class="bonus-item">
+                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                        <p class="bonus-item__text">Casino</p>
                     </li>
 
-                    <li class="payment-item">
-                        <img src="./assets/svg/american_express.svg" alt="payment_type_img" class="payment-item__image">
+                    <li class="bonus-item">
+                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                        <p class="bonus-item__text">200+ Paymenth Method</p>
                     </li>
 
-                    <li class="payment-item">
-                        <img src="./assets/svg/maestro.svg" alt="payment_type_img" class="payment-item__image">
-                    </li>
-
-                    <li class="payment-item">
-                        <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
-                    </li>
-
-                    <li class="payment-item">
-                        <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
-                    </li>
-
-                    <li class="payment-item">
-                        <img src="./assets/svg/american_express.svg" alt="payment_type_img" class="payment-item__image">
-                    </li>
-
-                    <li class="payment-item">
-                        <img src="./assets/svg/maestro.svg" alt="payment_type_img" class="payment-item__image">
+                    <li class="bonus-item">
+                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                        <p class="bonus-item__text">Fast Payouts</p>
                     </li>
                 </ul>
 
-                <div class="more-info-wrapper">
-                    <button class="more-info-button">
-                        <span class="more-info-button__text">
+                <div class="section-features">
+                    <ul class="payments-list">
+                        <li class="payment-item">
+                            <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/american_express.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/maestro.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/american_express.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/maestro.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+                    </ul>
+
+                    <div class="more-info-wrapper">
+                        <button class="more-info-button">
+                            <span class="more-info-button__text">
                             More info
                         </span>
-                        <img src="./assets/svg/angle down.svg" alt="angle-down-icon" class="more-info-button__image">
+                            <img src="./assets/svg/angle-down.svg" alt="angle-down-icon" class="more-info-button__image">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="section-button">
+                    <button class="button button--primary">
+                        Claim bonus
+                    </button>
+                    <button class="button button--secondary">
+                        Read Review
                     </button>
                 </div>
+
             </div>
 
-            <div class="section-button">
-                <button class="button button--primary">
-                    Claim bonus
-                </button>
-                <button class="button button--secondary">
-                    Read Review
-                </button>
-            </div>
-
-        </div>
-
-        <div class="section-flag">
-            <span class="section-flag__text">
+            <div class="section-flag">
+                <span class="section-flag__text">
                 best bonus
             </span>
-        </div>
+            </div>
 
-        <details class="details">
-            <summary class="summary">
-                <ul class="payments-list payment-list--hide">
-                    <li class="payment-item">
-                        <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
-                    </li>
+            <div class="details">
+                <div class="summary">
+                    <ul class="payments-list payment-list--hide">
+                        <li class="payment-item">
+                            <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
+                        </li>
 
-                    <li class="payment-item">
-                        <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
-                    </li>
+                        <li class="payment-item">
+                            <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
 
-                    <li class="payment-item">
-                        <img src="./assets/svg/american_express.svg" alt="payment_type_img" class="payment-item__image">
-                    </li>
+                        <li class="payment-item">
+                            <img src="./assets/svg/american_express.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
 
-                    <li class="payment-item">
-                        <img src="./assets/svg/maestro.svg" alt="payment_type_img" class="payment-item__image">
-                    </li>
+                        <li class="payment-item">
+                            <img src="./assets/svg/maestro.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
 
-                    <li class="payment-item">
-                        <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
-                    </li>
+                        <li class="payment-item">
+                            <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
+                        </li>
 
-                    <li class="payment-item">
-                        <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
-                    </li>
-                </ul>
-                <p class="details__text">
-                    Potenti placerat in tempor aliquet ut porta fringilla inceptos, massa senectus lacus volutpat morbi felis ultrices, cras nullam commodo nulla litora phasellus ornare. Lorem ipsum dolor proin id fames pulvinar curabitur faucibus. Potenti placerat in tempor aliquet ut porta fringilla inceptos, massa senectus lacus volutpat morbi felis ultrices, cras nullam commodo nulla litora phasellus ornare. Lorem ipsum dolor proin id fames pulvinar curabitur faucibus.
-                </p>
-                <ul class="review-list">
-                    <li class="review-item review-item">
-                        <div class="review-item__img review-item__img--like"></div>
-                        <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
-                    </li>
-                    <li class="review-item review-item">
-                        <div class="review-item__img review-item__img--like"></div>
-                        <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
-                    </li>
-                    <li class="review-item review-item">
-                        <div class="review-item__img review-item__img--like"></div>
-                        <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
-                    </li>
-                    <li class="review-item review-item">
-                        <div class="review-item__img review-item__img--like"></div>
-                        <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
-                    </li>
-                </ul>
-                <ul class="review-list">
-                    <li class="review-item review-item">
-                        <div class="review-item__img review-item__img--dislike"></div>
-                        <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
-                    </li>
-                    <li class="review-item review-item">
-                        <div class="review-item__img review-item__img--dislike"></div>
-                        <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
-                    </li>
-                    <li class="review-item review-item">
-                        <div class="review-item__img review-item__img--dislike"></div>
-                        <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
-                    </li>
-                    <li class="review-item review-item">
-                        <div class="review-item__img review-item__img--dislike"></div>
-                        <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
-                    </li>
-                </ul>
-            </summary>
-          </details>
-      </section>
+                        <li class="payment-item">
+                            <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+                    </ul>
+                    <p class="details__text">
+                        Potenti placerat in tempor aliquet ut porta fringilla inceptos, massa senectus lacus volutpat morbi felis ultrices, cras nullam commodo nulla litora phasellus ornare. Lorem ipsum dolor proin id fames pulvinar curabitur faucibus. Potenti placerat in tempor
+                        aliquet ut porta fringilla inceptos, massa senectus lacus volutpat morbi felis ultrices, cras nullam commodo nulla litora phasellus ornare. Lorem ipsum dolor proin id fames pulvinar curabitur faucibus.
+                    </p>
+                    <ul class="review-list">
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--like"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--like"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--like"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--like"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                    </ul>
+                    <ul class="review-list">
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--dislike"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--dislike"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--dislike"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--dislike"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-      <div class="pari-wrapper">
-        <section class="pari">
+        <section class="section">
+            <div class="section-header">
+                <div class="section-header__info">
 
-            <div class="pari-info">
-                <div class="pari-info-header">
-                    <div class="pari-logo">
-                        <img class="pari-logo__image" src="./assets/svg/parimatch_logo.svg" alt="parimatch_logo">
+                    <p class="section-header__info-position">
+                        2
+                    </p>
+                    <img src="./assets/svg/fire.svg" alt="fire" class="section-header__info-icon">
+                    <p class="section-header__info-name text-subtitle">
+                        BWIN
+                    </p>
+
+                </div>
+
+                <div class="section-header__rating">
+
+                    <p class="section-header__rating-number text-subtitle">
+                        5.0
+                    </p>
+
+                    <ul class="stars-list">
+                        <li class="star-item">
+                            <img src="./assets/svg/star.svg" alt="star-img">
+                        </li>
+                        <li class="star-item star-item--hide">
+                            <img src="./assets/svg/star.svg" alt="star-img">
+                        </li>
+                        <li class="star-item star-item--hide">
+                            <img src="./assets/svg/star.svg" alt="star-img">
+                        </li>
+                        <li class="star-item star-item--hide">
+                            <img src="./assets/svg/star.svg" alt="star-img">
+                        </li>
+                        <li class="star-item star-item--hide">
+                            <img src="./assets/svg/star.svg" alt="star-img">
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="section-body">
+                <div class="section-image-description-wrapper">
+                    <div class="section-image">
+                        <img src="./assets/svg/bwin-logo.svg" alt="bwin_logo">
                     </div>
-                    <div class="pari-info-wrapper">
-                        <div class="pari-info-wrapper-head">
-                            <div class="pari-head-main">
-                                <h2 class="pari-name">
+
+                    <div class="section-description">
+                        <div class="section-description__header">
+                            <img class="section-description__header-bonus-icon" src="./assets/svg/bonus.svg" alt="bonus">
+                            <p class="section-description__header-subtitle">
+                                Welcome bonus
+                            </p>
+                        </div>
+                        <h2 class="section-description__title text-title">
+                        100% Up to 500 $
+                    </h2>
+
+                        <p class="section-description__short-info">
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit lacus tempor, vulputate id fames pulvinar curabitur faucibus.
+                        </p>
+
+                    </div>
+                </div>
+
+                <ul class="bonus-list">
+                    <li class="bonus-item">
+                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                        <p class="bonus-item__text">Best odds</p>
+                    </li>
+
+                    <li class="bonus-item">
+                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                        <p class="bonus-item__text">Casino</p>
+                    </li>
+
+                    <li class="bonus-item">
+                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                        <p class="bonus-item__text">200+ Paymenth Method</p>
+                    </li>
+
+                    <li class="bonus-item">
+                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                        <p class="bonus-item__text">Fast Payouts</p>
+                    </li>
+                </ul>
+
+                <div class="section-features">
+                    <ul class="payments-list">
+                        <li class="payment-item">
+                            <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/american_express.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/maestro.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/american_express.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/maestro.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+                    </ul>
+
+                    <div class="more-info-wrapper">
+                        <button class="more-info-button">
+                            <span class="more-info-button__text">
+                            More info
+                        </span>
+                            <img src="./assets/svg/angle-down.svg" alt="angle-down-icon" class="more-info-button__image">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="section-button">
+                    <button class="button button--primary">
+                        Claim bonus
+                    </button>
+                    <button class="button button--secondary">
+                        Read Review
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="section-flag section-flag--secondary">
+                <span class="section-flag__text">
+                best bonus
+            </span>
+            </div>
+
+            <div class="details">
+                <div class="summary">
+                    <ul class="payments-list payment-list--hide">
+                        <li class="payment-item">
+                            <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/american_express.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/maestro.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+                    </ul>
+                    <p class="details__text">
+                        Potenti placerat in tempor aliquet ut porta fringilla inceptos, massa senectus lacus volutpat morbi felis ultrices, cras nullam commodo nulla litora phasellus ornare. Lorem ipsum dolor proin id fames pulvinar curabitur faucibus. Potenti placerat in tempor
+                        aliquet ut porta fringilla inceptos, massa senectus lacus volutpat morbi felis ultrices, cras nullam commodo nulla litora phasellus ornare. Lorem ipsum dolor proin id fames pulvinar curabitur faucibus.
+                    </p>
+                    <ul class="review-list">
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--like"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--like"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--like"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--like"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                    </ul>
+                    <ul class="review-list">
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--dislike"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--dislike"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--dislike"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--dislike"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-header__info">
+
+                    <p class="section-header__info-position">
+                        3
+                    </p>
+                    <img src="./assets/svg/fire.svg" alt="fire" class="section-header__info-icon">
+                    <p class="section-header__info-name text-subtitle">
+                        BWIN
+                    </p>
+
+                </div>
+
+                <div class="section-header__rating">
+
+                    <p class="section-header__rating-number text-subtitle">
+                        5.0
+                    </p>
+
+                    <ul class="stars-list">
+                        <li class="star-item">
+                            <img src="./assets/svg/star.svg" alt="star-img">
+                        </li>
+                        <li class="star-item star-item--hide">
+                            <img src="./assets/svg/star.svg" alt="star-img">
+                        </li>
+                        <li class="star-item star-item--hide">
+                            <img src="./assets/svg/star.svg" alt="star-img">
+                        </li>
+                        <li class="star-item star-item--hide">
+                            <img src="./assets/svg/star.svg" alt="star-img">
+                        </li>
+                        <li class="star-item star-item--hide">
+                            <img src="./assets/svg/star.svg" alt="star-img">
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="section-body">
+                <div class="section-image-description-wrapper">
+                    <div class="section-image">
+                        <img src="./assets/svg/bwin-logo.svg" alt="bwin_logo">
+                    </div>
+
+                    <div class="section-description">
+                        <div class="section-description__header">
+                            <img class="section-description__header-bonus-icon" src="./assets/svg/bonus.svg" alt="bonus">
+                            <p class="section-description__header-subtitle">
+                                Welcome bonus
+                            </p>
+                        </div>
+                        <h2 class="section-description__title text-title">
+                        100% Up to 500 $
+                    </h2>
+
+                        <p class="section-description__short-info">
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit lacus tempor, vulputate id fames pulvinar curabitur faucibus.
+                        </p>
+
+                    </div>
+                </div>
+
+                <ul class="bonus-list">
+                    <li class="bonus-item">
+                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                        <p class="bonus-item__text">Best odds</p>
+                    </li>
+
+                    <li class="bonus-item">
+                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                        <p class="bonus-item__text">Casino</p>
+                    </li>
+
+                    <li class="bonus-item">
+                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                        <p class="bonus-item__text">200+ Paymenth Method</p>
+                    </li>
+
+                    <li class="bonus-item">
+                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                        <p class="bonus-item__text">Fast Payouts</p>
+                    </li>
+                </ul>
+
+                <div class="section-features">
+                    <ul class="payments-list">
+                        <li class="payment-item">
+                            <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/american_express.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/maestro.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/american_express.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/maestro.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+                    </ul>
+
+                    <div class="more-info-wrapper">
+                        <button class="more-info-button">
+                            <span class="more-info-button__text">
+                            More info
+                        </span>
+                            <img src="./assets/svg/angle-down.svg" alt="angle-down-icon" class="more-info-button__image">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="section-button">
+                    <button class="button button--primary">
+                        Claim bonus
+                    </button>
+                    <button class="button button--secondary">
+                        Read Review
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="details">
+                <div class="summary">
+                    <ul class="payments-list payment-list--hide">
+                        <li class="payment-item">
+                            <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/american_express.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/maestro.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item">
+                            <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+                    </ul>
+                    <p class="details__text">
+                        Potenti placerat in tempor aliquet ut porta fringilla inceptos, massa senectus lacus volutpat morbi felis ultrices, cras nullam commodo nulla litora phasellus ornare. Lorem ipsum dolor proin id fames pulvinar curabitur faucibus. Potenti placerat in tempor
+                        aliquet ut porta fringilla inceptos, massa senectus lacus volutpat morbi felis ultrices, cras nullam commodo nulla litora phasellus ornare. Lorem ipsum dolor proin id fames pulvinar curabitur faucibus.
+                    </p>
+                    <ul class="review-list">
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--like"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--like"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--like"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--like"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                    </ul>
+                    <ul class="review-list">
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--dislike"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--dislike"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--dislike"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                        <li class="review-item review-item">
+                            <div class="review-item__img review-item__img--dislike"></div>
+                            <span class="review-item__text">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="pari-wrapper">
+            <section class="pari">
+
+                <div class="pari-info">
+                    <div class="pari-info-header">
+                        <div class="pari-logo">
+                            <img class="pari-logo__image" src="./assets/svg/parimatch_logo.svg" alt="parimatch_logo">
+                        </div>
+                        <div class="pari-info-wrapper">
+                            <div class="pari-info-wrapper-head">
+                                <div class="pari-head-main">
+                                    <h2 class="pari-name">
                                     PariMatch
                                 </h2>
-                                <div class="pari-rating-wrapper">
+                                    <div class="pari-rating-wrapper">
+                                        <p class="pari-rating-value">
+                                            5.0
+                                        </p>
+                                        <ul class="pari-stars-list">
+                                            <li class="pari-star-item">
+                                                <img src="./assets/svg/star.svg" alt="star-img">
+                                            </li>
+                                            <li class="pari-star-item">
+                                                <img src="./assets/svg/star.svg" alt="star-img">
+                                            </li>
+                                            <li class="pari-star-item">
+                                                <img src="./assets/svg/star.svg" alt="star-img">
+                                            </li>
+                                            <li class="pari-star-item">
+                                                <img src="./assets/svg/star.svg" alt="star-img">
+                                            </li>
+                                            <li class="pari-star-item">
+                                                <img src="./assets/svg/star.svg" alt="star-img">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <ul class="pari-os-list">
+                                    <li class="pari-os-item">
+                                        <img src="./assets/svg/windows.svg" alt="window-icon">
+                                        <img src="./assets/svg/cross.svg" alt="cross-icon">
+                                    </li>
+                                    <li class="pari-os-item">
+                                        <img src="./assets/svg/android.svg" alt="window-icon">
+                                        <img src="./assets/svg/check.svg" alt="cross-icon">
+                                    </li>
+                                    <li class="pari-os-item">
+                                        <img src="./assets/svg/apple.svg" alt="window-icon">
+                                        <img src="./assets/svg/check.svg" alt="cross-icon">
+                                    </li>
+                                </ul>
+                                <div class="pari-rating-wrapper pari-rating-wrapper--xs-show">
                                     <p class="pari-rating-value">
                                         5.0
                                     </p>
@@ -269,75 +745,149 @@
                                         </li>
                                     </ul>
                                 </div>
+                                <div class="pari-info-features pari-info-features--xs">
+                                    <p class="pari-features">Beting/Casino/Live Games/Fast Game</p>
+                                </div>
                             </div>
-
-                            <ul class="pari-os-list">
-                                <li class="pari-os-item">
-                                    <img src="./assets/svg/windows.svg" alt="window-icon">
-                                    <img src="./assets/svg/cross.svg" alt="cross-icon">
-                                </li>
-                                <li class="pari-os-item">
-                                    <img src="./assets/svg/android.svg" alt="window-icon">
-                                    <img src="./assets/svg/check.svg" alt="cross-icon">
-                                </li>
-                                <li class="pari-os-item">
-                                    <img src="./assets/svg/apple.svg" alt="window-icon">
-                                    <img src="./assets/svg/check.svg" alt="cross-icon">
-                                </li>
-                            </ul>
-                            <div class="pari-rating-wrapper pari-rating-wrapper--xs-show">
-                                <p class="pari-rating-value">
-                                    5.0
-                                </p>
-                                <ul class="pari-stars-list">
-                                    <li class="pari-star-item">
-                                        <img src="./assets/svg/star.svg" alt="star-img">
-                                    </li>
-                                    <li class="pari-star-item">
-                                        <img src="./assets/svg/star.svg" alt="star-img">
-                                    </li>
-                                    <li class="pari-star-item">
-                                        <img src="./assets/svg/star.svg" alt="star-img">
-                                    </li>
-                                    <li class="pari-star-item">
-                                        <img src="./assets/svg/star.svg" alt="star-img">
-                                    </li>
-                                    <li class="pari-star-item">
-                                        <img src="./assets/svg/star.svg" alt="star-img">
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="pari-info-features pari-info-features--xs">
+                            <div class="pari-info-features">
                                 <p class="pari-features">Beting/Casino/Live Games/Fast Game</p>
                             </div>
                         </div>
-                        <div class="pari-info-features">
-                            <p class="pari-features">Beting/Casino/Live Games/Fast Game</p>
+                    </div>
+
+                    <ul class="pari-os-list pari-os-list--xxs-show">
+                        <li class="pari-os-item">
+                            <img src="./assets/svg/windows.svg" alt="window-icon">
+                            <img src="./assets/svg/cross.svg" alt="cross-icon">
+                        </li>
+                        <li class="pari-os-item">
+                            <img src="./assets/svg/android.svg" alt="window-icon">
+                            <img src="./assets/svg/check.svg" alt="cross-icon">
+                        </li>
+                        <li class="pari-os-item">
+                            <img src="./assets/svg/apple.svg" alt="window-icon">
+                            <img src="./assets/svg/check.svg" alt="cross-icon">
+                        </li>
+                    </ul>
+
+
+                    <div class="pari-bonus pari-bonus--xs-show">
+                        <div class="pari-bonus-logo-and-bg"></div>
+
+                        <div class="pari-bonus-info">
+
+                            <div class="section-description__header">
+                                <img class="section-description__header-bonus-icon" src="./assets/svg/bonus.svg" alt="bonus">
+                                <p class="section-description__header-subtitle section-description__header-subtitle--secondary">
+                                    Welcome bonus
+                                </p>
+                            </div>
+                            <h2 class="section-description__title text-title text-title--secondary">
+                            100% Up to 500 $
+                        </h2>
+
+                            <p class="pari-bonus-description">
+                                Lorem ipsum dolor sit amet consectetur adipiscing elit lacus tempor, vulputate id fames pulvinar curabitur faucibus.
+                            </p>
+
+                            <button class="button button--primary">
+                                Claim bonus
+                            </button>
                         </div>
                     </div>
+
+                    <ul class="pari-bonus-list">
+                        <li class="pari-bonus-item">
+                            <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                            <p class="bonus-item__text">Lorem ipsum dolor sit consectetur</p>
+                        </li>
+                        <li class="pari-bonus-item">
+                            <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                            <p class="bonus-item__text">Lorem ipsum dolor sit consectetur</p>
+                        </li>
+                        <li class="pari-bonus-item">
+                            <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                            <p class="bonus-item__text">Lorem ipsum dolor sit consectetur</p>
+                        </li>
+                        <li class="pari-bonus-item">
+                            <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                            <p class="bonus-item__text">Lorem ipsum dolor sit consectetur</p>
+                        </li>
+                        <li class="pari-bonus-item">
+                            <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                            <p class="bonus-item__text">Lorem ipsum dolor sit consectetur</p>
+                        </li>
+                        <li class="pari-bonus-item">
+                            <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                            <p class="bonus-item__text">Lorem ipsum dolor sit consectetur</p>
+                        </li>
+                        <li class="pari-bonus-item">
+                            <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                            <p class="bonus-item__text">Lorem ipsum dolor sit consectetur</p>
+                        </li>
+                        <li class="pari-bonus-item">
+                            <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
+                            <p class="bonus-item__text">Lorem ipsum dolor sit consectetur</p>
+                        </li>
+                    </ul>
+
+                    <ul class="pari-payments-list">
+                        <li class="payment-item payment-item--secondary">
+                            <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item payment-item--secondary">
+                            <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item payment-item--secondary">
+                            <img src="./assets/svg/american_express.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item payment-item--secondary">
+                            <img src="./assets/svg/maestro.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item payment-item--secondary">
+                            <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item payment-item--secondary">
+                            <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item payment-item--secondary">
+                            <img src="./assets/svg/american_express.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item payment-item--secondary">
+                            <img src="./assets/svg/maestro.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item payment-item--secondary payment-item--md-hide">
+                            <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item payment-item--secondary payment-item--md-hide">
+                            <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item payment-item--secondary payment-item--md-hide">
+                            <img src="./assets/svg/american_express.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+
+                        <li class="payment-item payment-item--secondary payment-item--md-hide">
+                            <img src="./assets/svg/maestro.svg" alt="payment_type_img" class="payment-item__image">
+                        </li>
+                    </ul>
                 </div>
 
-                <ul class="pari-os-list pari-os-list--xxs-show">
-                    <li class="pari-os-item">
-                        <img src="./assets/svg/windows.svg" alt="window-icon">
-                        <img src="./assets/svg/cross.svg" alt="cross-icon">
-                    </li>
-                    <li class="pari-os-item">
-                        <img src="./assets/svg/android.svg" alt="window-icon">
-                        <img src="./assets/svg/check.svg" alt="cross-icon">
-                    </li>
-                    <li class="pari-os-item">
-                        <img src="./assets/svg/apple.svg" alt="window-icon">
-                        <img src="./assets/svg/check.svg" alt="cross-icon">
-                    </li>
-                </ul>
-                
 
-                <div class="pari-bonus pari-bonus--xs-show">
+
+                <div class="pari-bonus">
                     <div class="pari-bonus-logo-and-bg"></div>
-    
+
                     <div class="pari-bonus-info">
-                        
                         <div class="section-description__header">
                             <img class="section-description__header-bonus-icon" src="./assets/svg/bonus.svg" alt="bonus">
                             <p class="section-description__header-subtitle section-description__header-subtitle--secondary">
@@ -345,204 +895,551 @@
                             </p>
                         </div>
                         <h2 class="section-description__title text-title text-title--secondary">
-                            100% Up to 500 $
-                        </h2>
-    
+                        100% Up to 500 $
+                    </h2>
+
                         <p class="pari-bonus-description">
                             Lorem ipsum dolor sit amet consectetur adipiscing elit lacus tempor, vulputate id fames pulvinar curabitur faucibus.
                         </p>
-    
+
                         <button class="button button--primary">
                             Claim bonus
                         </button>
                     </div>
                 </div>
 
-                <ul class="pari-bonus-list">
-                    <li class="pari-bonus-item">
-                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
-                        <p class="bonus-item__text">Lorem ipsum dolor sit consectetur</p>
-                    </li>
-                    <li class="pari-bonus-item">
-                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
-                        <p class="bonus-item__text">Lorem ipsum dolor sit consectetur</p>
-                    </li>
-                    <li class="pari-bonus-item">
-                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
-                        <p class="bonus-item__text">Lorem ipsum dolor sit consectetur</p>
-                    </li>
-                    <li class="pari-bonus-item">
-                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
-                        <p class="bonus-item__text">Lorem ipsum dolor sit consectetur</p>
-                    </li>
-                    <li class="pari-bonus-item">
-                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
-                        <p class="bonus-item__text">Lorem ipsum dolor sit consectetur</p>
-                    </li>
-                    <li class="pari-bonus-item">
-                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
-                        <p class="bonus-item__text">Lorem ipsum dolor sit consectetur</p>
-                    </li>
-                    <li class="pari-bonus-item">
-                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
-                        <p class="bonus-item__text">Lorem ipsum dolor sit consectetur</p>
-                    </li>
-                    <li class="pari-bonus-item">
-                        <img src="./assets/svg/rocket.svg" alt="" class="bonus-item__image">
-                        <p class="bonus-item__text">Lorem ipsum dolor sit consectetur</p>
-                    </li>
-                </ul>
-
-                <ul class="pari-payments-list">
-                    <li class="payment-item payment-item--secondary">
-                        <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
-                    </li>
-
-                    <li class="payment-item payment-item--secondary">
-                        <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
-                    </li>
-
-                    <li class="payment-item payment-item--secondary">
-                        <img src="./assets/svg/american_express.svg" alt="payment_type_img" class="payment-item__image">
-                    </li>
-
-                    <li class="payment-item payment-item--secondary">
-                        <img src="./assets/svg/maestro.svg" alt="payment_type_img" class="payment-item__image">
-                    </li>
-
-                    <li class="payment-item payment-item--secondary">
-                        <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
-                    </li>
-
-                    <li class="payment-item payment-item--secondary">
-                        <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
-                    </li>
-
-                    <li class="payment-item payment-item--secondary">
-                        <img src="./assets/svg/american_express.svg" alt="payment_type_img" class="payment-item__image">
-                    </li>
-
-                    <li class="payment-item payment-item--secondary">
-                        <img src="./assets/svg/maestro.svg" alt="payment_type_img" class="payment-item__image">
-                    </li>
-
-                    <li class="payment-item payment-item--secondary payment-item--md-hide">
-                        <img src="./assets/svg/masterrcard.svg" alt="payment_type-_img" class="payment-item__image">
-                    </li>
-
-                    <li class="payment-item payment-item--secondary payment-item--md-hide">
-                        <img src="./assets/svg/discovery.svg" alt="payment_type_img" class="payment-item__image">
-                    </li>
-
-                    <li class="payment-item payment-item--secondary payment-item--md-hide">
-                        <img src="./assets/svg/american_express.svg" alt="payment_type_img" class="payment-item__image">
-                    </li>
-
-                    <li class="payment-item payment-item--secondary payment-item--md-hide">
-                        <img src="./assets/svg/maestro.svg" alt="payment_type_img" class="payment-item__image">
-                    </li>
-                </ul>
-            </div>
 
 
+            </section>
 
-            <div class="pari-bonus">
-                <div class="pari-bonus-logo-and-bg"></div>
-
-                <div class="pari-bonus-info">
-                    <div class="section-description__header">
-                        <img class="section-description__header-bonus-icon" src="./assets/svg/bonus.svg" alt="bonus">
-                        <p class="section-description__header-subtitle section-description__header-subtitle--secondary">
-                            Welcome bonus
-                        </p>
-                    </div>
-                    <h2 class="section-description__title text-title text-title--secondary">
-                        100% Up to 500 $
-                    </h2>
-
-                    <p class="pari-bonus-description">
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit lacus tempor, vulputate id fames pulvinar curabitur faucibus.
-                    </p>
-
-                    <button class="button button--primary">
-                        Claim bonus
-                    </button>
-                </div>
-            </div>
-
-
-
-        </section>
-
-        <aside class="company-data-wrapper">
-            <ul class="company-data-list">
-                <li class="company-data-item">
-                    <img src="./assets/svg/calendar.svg" class="company-data-item__img" alt="calendar-icon">
-                    <div class="company-data-title-wrapper">
-                        <p class="company-data-title"><strong>
+            <aside class="company-data-wrapper">
+                <ul class="company-data-list">
+                    <li class="company-data-item">
+                        <img src="./assets/svg/calendar.svg" class="company-data-item__img" alt="calendar-icon">
+                        <div class="company-data-title-wrapper">
+                            <p class="company-data-title"><strong>
                             Foundation
-                        </strong> </p> 
-                        <date class="company-data-subtitle">1994</date>
-                    </div>
-                </li>
-                <li class="company-data-item">
-                    <img src="./assets/svg/shield.svg" class="company-data-item__img" alt="calendar-icon">
-                    <div class="company-data-title-wrapper">
-                        <p class="company-data-title"><strong>
+                        </strong> </p>
+                            <span class="company-data-subtitle">1994</span>
+                        </div>
+                    </li>
+                    <li class="company-data-item">
+                        <img src="./assets/svg/shield.svg" class="company-data-item__img" alt="calendar-icon">
+                        <div class="company-data-title-wrapper">
+                            <p class="company-data-title"><strong>
                             Licensed
                         </strong> </p>
-                        <p class="company-data-subtitle">Curaso GLH-OCCHKTW0706292016</p>
-                    </div>
-                </li>
-                <li class="company-data-item">
-                    <img src="./assets/svg/mobile-phone.svg" class="company-data-item__img" alt="calendar-icon">
-                    <div class="company-data-title-wrapper">
-                        <p class="company-data-title"><strong>
+                            <p class="company-data-subtitle">Curaso GLH-OCCHKTW0706292016</p>
+                        </div>
+                    </li>
+                    <li class="company-data-item">
+                        <img src="./assets/svg/mobile-phone.svg" class="company-data-item__img" alt="calendar-icon">
+                        <div class="company-data-title-wrapper">
+                            <p class="company-data-title"><strong>
                             Apps
                         </strong> </p>
-                        <p class="company-data-subtitle">IOS, Android, Windows</p>
-                    </div>
-                </li>
-                <li class="company-data-item">
-                    <img src="./assets/svg/location.svg" class="company-data-item__img" alt="calendar-icon">
-                    <div class="company-data-title-wrapper">
-                        <p class="company-data-title"><strong>
+                            <p class="company-data-subtitle">IOS, Android, Windows</p>
+                        </div>
+                    </li>
+                    <li class="company-data-item">
+                        <img src="./assets/svg/location.svg" class="company-data-item__img" alt="calendar-icon">
+                        <div class="company-data-title-wrapper">
+                            <p class="company-data-title"><strong>
                             Country
                         </strong> </p>
-                        <p class="company-data-subtitle">Europe, Russia, North American</p>
-                    </div>
-                </li>
-                <li class="company-data-item">
-                    <img src="./assets/svg/server.svg" class="company-data-item__img" alt="calendar-icon">
-                    <div class="company-data-title-wrapper">
-                        <p class="company-data-title"><strong>
+                            <p class="company-data-subtitle">Europe, Russia, North American</p>
+                        </div>
+                    </li>
+                    <li class="company-data-item">
+                        <img src="./assets/svg/server.svg" class="company-data-item__img" alt="calendar-icon">
+                        <div class="company-data-title-wrapper">
+                            <p class="company-data-title"><strong>
                             Apps
                         </strong> </p>
-                        <p class="company-data-subtitle">IOS, Android, Windows</p>
+                            <p class="company-data-subtitle">IOS, Android, Windows</p>
+                        </div>
+                    </li>
+                </ul>
+            </aside>
+
+            <section class="review-section">
+                <div class="review-section-header">
+                    <div class="author-avatar">
+                        <img src="./assets/img/author.png" alt="author-avatar">
                     </div>
-                </li>
-            </ul>
-        </aside>
-
-        <section class="review-section">
-            <div class="review-section-header">
-                <div class="author-avatar">
-                    <img src="./assets/img/author.png" alt="author-avatar">
+                    <div class="review-section-author">
+                        <h4 class="review-author__name">Parimatch</h4>
+                        <p class="review-author-info">
+                            Commnet from Author
+                        </p>
+                    </div>
                 </div>
-                <div class="review-section-author">
-                    <h4 class="review-author__name">Parimatch</h4>
-                    <p class="review-author-info">
-                        Commnet from Author
-                    </p>
-                </div>
-            </div>
-            <p class="review-section-content">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit lacus tempor quis volutpat integer lacinia montes nisl, class quisque leo consequat sed lobortis proin suscipit vulputate id fames pulvinar curabitur faucibus. Lorem ipsum dolor sit amet consectetur adipiscing elit lacus tempor quis volutpat integer lacinia montes nisl, class quisque leo consequat sed lobortis proin suscipit vulputate id fames pulvinar curabitur faucibus. Lorem ipsum dolor sit amet consectetur adipiscing elit lacus tempor quis volutpat integer lacinia montes nisl, class quisque leo consequat sed lobortis proin suscipit vulputate id fames pulvinar curabitur faucibus.
-            </p>
-        </section>
-    </div>
+                <p class="review-section-content">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit lacus tempor quis volutpat integer lacinia montes nisl, class quisque leo consequat sed lobortis proin suscipit vulputate id fames pulvinar curabitur faucibus. Lorem ipsum dolor sit amet consectetur
+                    adipiscing elit lacus tempor quis volutpat integer lacinia montes nisl, class quisque leo consequat sed lobortis proin suscipit vulputate id fames pulvinar curabitur faucibus. Lorem ipsum dolor sit amet consectetur adipiscing elit
+                    lacus tempor quis volutpat integer lacinia montes nisl, class quisque leo consequat sed lobortis proin suscipit vulputate id fames pulvinar curabitur faucibus.
+                </p>
+            </section>
+        </div>
+        <div class="table-section">
+            <table class="table">
+                <thead class="table-header">
+                    <tr>
+                        <th class="header-row header-row--xxl">Team</th>
+                        <th>M</th>
+                        <th>W</th>
+                        <th>L</th>
+                        <th>D</th>
+                        <th>NR</th>
+                        <th>PTS</th>
+                        <th>Series form</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="main-row">
+                        <th class="primary-row__cell--collapsed row--large">
+                            <div class="row__wrapper--large">
+                                <div class="command-logo__wrapper">
+                                    <img src="./assets/img/team1.png" alt="team1-icon">
+                                </div>
+                                <span>Innocent Kaia</span>
+                                <div class="command-dropdown__wrapper">
+                                    <img src="./assets/svg/table-dropdown.svg" alt="down-icon">
+                                </div>
+                            </div>
+                        </th>
+                        <th>21</th>
+                        <th>15</th>
+                        <th>13</th>
+                        <th>5</th>
+                        <th>22</th>
+                        <th>23</th>
+                        <th class="series-result-wrapper">
+                            <div class="series-result series-result--lose">
+                                <span>L</span>
+                            </div>
+                            <div class="series-result series-result--win">
+                                <span>W</span>
+                            </div>
+                            <div class="series-result series-result--lose">
+                                <span>L</span>
+                            </div>
+                            <div class="series-result series-result--none">
+                                <span>N</span>
+                            </div>
+                            <div class="series-result series-result--win">
+                                <span>W</span>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr class="data-row">
+                        <th colspan="8" class="data-row__cell">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Opponent</th>
+                                        <th>Date</th>
+                                        <th>Result</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            <div class="row__wrapper--large">
+                                                <div class="command-logo__wrapper">
+                                                    <img src="./assets/img/team2.png" alt="team1-icon">
+                                                </div>
+                                                <span>Dehli Capitals</span>
+                                            </div>
+                                        </th>
+                                        <th>04 Nov</th>
+                                        <th class="data-results-cell">
+                                            <div>
+                                                <div class="series-result series-result--lose">
+                                                    <span>L</span>
+                                                </div>
+                                                <span class="data-result-cell__result">New Zealand won by 35 runs </span>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th class="row--large">
+                                            <div class="row__wrapper--large">
+                                                <div class="command-logo__wrapper">
+                                                    <img src="./assets/img/team3.png" alt="team1-icon">
+                                                </div>
+                                                <span>Shree Lanka</span>
+                                            </div>
+                                        </th>
+                                        <th>04 Nov</th>
+                                        <th class="data-results-cell">
+                                            <div>
+                                                <div class="series-result series-result--win">
+                                                    <span>W</span>
+                                                </div>
+                                                <span class="data-result-cell__result">New Zealand won by 35 runs </span>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class="row__wrapper--large">
+                                                <div class="command-logo__wrapper">
+                                                    <img src="./assets/img/team2.png" alt="team1-icon">
+                                                </div>
+                                                <span>Dehli Capitals</span>
+                                            </div>
+                                        </th>
+                                        <th>04 Nov</th>
+                                        <th class="data-results-cell">
+                                            <div>
+                                                <div class="series-result series-result--lose">
+                                                    <span>L</span>
+                                                </div>
+                                                <span class="data-result-cell__result">New Zealand won by 35 runs </span>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th class="row--large">
+                                            <div class="row__wrapper--large">
+                                                <div class="command-logo__wrapper">
+                                                    <img src="./assets/img/team3.png" alt="team1-icon">
+                                                </div>
+                                                <span>Shree Lanka</span>
+                                            </div>
+                                        </th>
+                                        <th>04 Nov</th>
+                                        <th class="data-results-cell">
+                                            <div>
+                                                <div class="series-result series-result--win">
+                                                    <span>W</span>
+                                                </div>
+                                                <span class="data-result-cell__result">New Zealand won by 35 runs </span>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th class="row--large">
+                                            <div class="row__wrapper--large">
+                                                <div class="command-logo__wrapper">
+                                                    <img src="./assets/img/team3.png" alt="team1-icon">
+                                                </div>
+                                                <span>Shree Lanka</span>
+                                            </div>
+                                        </th>
+                                        <th>04 Nov</th>
+                                        <th class="data-results-cell">
+                                            <div>
+                                                <div class="series-result series-result--none">
+                                                    <span>N</span>
+                                                </div>
+                                                <span class="data-result-cell__result">New Zealand won by 35 runs </span>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </th>
+                    </tr>
+                    <tr class="main-row">
+                        <th class="primary-row__cell--collapsed row--large">
+                            <div class="row__wrapper--large">
+                                <div class="command-logo__wrapper">
+                                    <img src="./assets/img/team1.png" alt="team1-icon">
+                                </div>
+                                <span>Innocent Kaia</span>
+                                <div class="command-dropdown__wrapper">
+                                    <img src="./assets/svg/table-dropdown.svg" alt="down-icon">
+                                </div>
+                            </div>
+                        </th>
+                        <th>21</th>
+                        <th>15</th>
+                        <th>13</th>
+                        <th>5</th>
+                        <th>22</th>
+                        <th>23</th>
+                        <th class="series-result-wrapper">
+                            <div class="series-result series-result--lose">
+                                <span>L</span>
+                            </div>
+                            <div class="series-result series-result--win">
+                                <span>W</span>
+                            </div>
+                            <div class="series-result series-result--lose">
+                                <span>L</span>
+                            </div>
+                            <div class="series-result series-result--none">
+                                <span>N</span>
+                            </div>
+                            <div class="series-result series-result--win">
+                                <span>W</span>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr class="data-row">
+                        <th colspan="8" class="data-row__cell">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Opponent</th>
+                                        <th>Date</th>
+                                        <th>Result</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            <div class="row__wrapper--large">
+                                                <div class="command-logo__wrapper">
+                                                    <img src="./assets/img/team2.png" alt="team1-icon">
+                                                </div>
+                                                <span>Dehli Capitals</span>
+                                            </div>
+                                        </th>
+                                        <th>04 Nov</th>
+                                        <th class="data-results-cell">
+                                            <div>
+                                                <div class="series-result series-result--lose">
+                                                    <span>L</span>
+                                                </div>
+                                                <span class="data-result-cell__result">New Zealand won by 35 runs </span>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th class="row--large">
+                                            <div class="row__wrapper--large">
+                                                <div class="command-logo__wrapper">
+                                                    <img src="./assets/img/team3.png" alt="team1-icon">
+                                                </div>
+                                                <span>Shree Lanka</span>
+                                            </div>
+                                        </th>
+                                        <th>04 Nov</th>
+                                        <th class="data-results-cell">
+                                            <div>
+                                                <div class="series-result series-result--win">
+                                                    <span>W</span>
+                                                </div>
+                                                <span class="data-result-cell__result">New Zealand won by 35 runs </span>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class="row__wrapper--large">
+                                                <div class="command-logo__wrapper">
+                                                    <img src="./assets/img/team2.png" alt="team1-icon">
+                                                </div>
+                                                <span>Dehli Capitals</span>
+                                            </div>
+                                        </th>
+                                        <th>04 Nov</th>
+                                        <th class="data-results-cell">
+                                            <div>
+                                                <div class="series-result series-result--lose">
+                                                    <span>L</span>
+                                                </div>
+                                                <span class="data-result-cell__result">New Zealand won by 35 runs </span>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th class="row--large">
+                                            <div class="row__wrapper--large">
+                                                <div class="command-logo__wrapper">
+                                                    <img src="./assets/img/team3.png" alt="team1-icon">
+                                                </div>
+                                                <span>Shree Lanka</span>
+                                            </div>
+                                        </th>
+                                        <th>04 Nov</th>
+                                        <th class="data-results-cell">
+                                            <div>
+                                                <div class="series-result series-result--win">
+                                                    <span>W</span>
+                                                </div>
+                                                <span class="data-result-cell__result">New Zealand won by 35 runs </span>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th class="row--large">
+                                            <div class="row__wrapper--large">
+                                                <div class="command-logo__wrapper">
+                                                    <img src="./assets/img/team3.png" alt="team1-icon">
+                                                </div>
+                                                <span>Shree Lanka</span>
+                                            </div>
+                                        </th>
+                                        <th>04 Nov</th>
+                                        <th class="data-results-cell">
+                                            <div>
+                                                <div class="series-result series-result--none">
+                                                    <span>N</span>
+                                                </div>
+                                                <span class="data-result-cell__result">New Zealand won by 35 runs </span>
+                                            </div>
+                                        </th>
+                                    </tr>
 
+                                </tbody>
+                            </table>
+                        </th>
+                    </tr>
+                    <tr class="main-row">
+                        <th class="primary-row__cell--collapsed row--large">
+                            <div class="row__wrapper--large">
+                                <div class="command-logo__wrapper">
+                                    <img src="./assets/img/team1.png" alt="team1-icon">
+                                </div>
+                                <span>Innocent Kaia</span>
+                                <div class="command-dropdown__wrapper">
+                                    <img src="./assets/svg/table-dropdown.svg" alt="down-icon">
+                                </div>
+                            </div>
+                        </th>
+                        <th>21</th>
+                        <th>15</th>
+                        <th>13</th>
+                        <th>5</th>
+                        <th>22</th>
+                        <th>23</th>
+                        <th class="series-result-wrapper">
+                            <div class="series-result series-result--lose">
+                                <span>L</span>
+                            </div>
+                            <div class="series-result series-result--win">
+                                <span>W</span>
+                            </div>
+                            <div class="series-result series-result--lose">
+                                <span>L</span>
+                            </div>
+                            <div class="series-result series-result--none">
+                                <span>N</span>
+                            </div>
+                            <div class="series-result series-result--win">
+                                <span>W</span>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr class="data-row">
+                        <th colspan="8" class="data-row__cell">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Opponent</th>
+                                        <th>Date</th>
+                                        <th>Result</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            <div class="row__wrapper--large">
+                                                <div class="command-logo__wrapper">
+                                                    <img src="./assets/img/team2.png" alt="team1-icon">
+                                                </div>
+                                                <span>Dehli Capitals</span>
+                                            </div>
+                                        </th>
+                                        <th>04 Nov</th>
+                                        <th class="data-results-cell">
+                                            <div>
+                                                <div class="series-result series-result--lose">
+                                                    <span>L</span>
+                                                </div>
+                                                <span class="data-result-cell__result">New Zealand won by 35 runs </span>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th class="row--large">
+                                            <div class="row__wrapper--large">
+                                                <div class="command-logo__wrapper">
+                                                    <img src="./assets/img/team3.png" alt="team1-icon">
+                                                </div>
+                                                <span>Shree Lanka</span>
+                                            </div>
+                                        </th>
+                                        <th>04 Nov</th>
+                                        <th class="data-results-cell">
+                                            <div>
+                                                <div class="series-result series-result--win">
+                                                    <span>W</span>
+                                                </div>
+                                                <span class="data-result-cell__result">New Zealand won by 35 runs </span>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class="row__wrapper--large">
+                                                <div class="command-logo__wrapper">
+                                                    <img src="./assets/img/team2.png" alt="team1-icon">
+                                                </div>
+                                                <span>Dehli Capitals</span>
+                                            </div>
+                                        </th>
+                                        <th>04 Nov</th>
+                                        <th class="data-results-cell">
+                                            <div>
+                                                <div class="series-result series-result--lose">
+                                                    <span>L</span>
+                                                </div>
+                                                <span class="data-result-cell__result">New Zealand won by 35 runs </span>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th class="row--large">
+                                            <div class="row__wrapper--large">
+                                                <div class="command-logo__wrapper">
+                                                    <img src="./assets/img/team3.png" alt="team1-icon">
+                                                </div>
+                                                <span>Shree Lanka</span>
+                                            </div>
+                                        </th>
+                                        <th>04 Nov</th>
+                                        <th class="data-results-cell">
+                                            <div>
+                                                <div class="series-result series-result--win">
+                                                    <span>W</span>
+                                                </div>
+                                                <span class="data-result-cell__result">New Zealand won by 35 runs </span>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th class="row--large">
+                                            <div class="row__wrapper--large">
+                                                <div class="command-logo__wrapper">
+                                                    <img src="./assets/img/team3.png" alt="team1-icon">
+                                                </div>
+                                                <span>Shree Lanka</span>
+                                            </div>
+                                        </th>
+                                        <th>04 Nov</th>
+                                        <th class="data-results-cell">
+                                            <div>
+                                                <div class="series-result series-result--none">
+                                                    <span>N</span>
+                                                </div>
+                                                <span class="data-result-cell__result">New Zealand won by 35 runs </span>
+                                            </div>
+                                        </th>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </body>
-<script src="./scripts/dropdown.js"></script>
+
 </html>
